@@ -1,11 +1,11 @@
 import React from 'react'
 
-const subt_test = () => {
+const Contact = () => {
    return (
       <div>
-         subtest
+         
       </div>
    )
 }
 
-export default subt_test
+export default Contact
