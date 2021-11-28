@@ -19,7 +19,7 @@ const Contact = () => {
                   </p>
                </article>
                <article>
-                  <form className="form contact-form">
+                  <form className="form con tact-form">
                      <div className="form-row">
                         <label htmlFor="name">your name</label>
                         <input type="text" name="name" id="name"/>
