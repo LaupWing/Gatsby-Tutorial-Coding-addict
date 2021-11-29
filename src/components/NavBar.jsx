@@ -22,6 +22,7 @@ const NavBar = () => {
                   to="/" 
                   className="nav-link" 
                   activeClassName="active-link"
+                  onClick={()=>setShow(false)}
                >
                   Home
                </Link>
@@ -29,6 +30,7 @@ const NavBar = () => {
                   to="/recipes" 
                   className="nav-link" 
                   activeClassName="active-link"
+                  onClick={()=>setShow(false)}
                >
                   recipes
                </Link>
@@ -36,6 +38,7 @@ const NavBar = () => {
                   to="/tags" 
                   className="nav-link" 
                   activeClassName="active-link"
+                  onClick={()=>setShow(false)}
                >
                   tags
                </Link>
@@ -43,6 +46,7 @@ const NavBar = () => {
                   to="/about" 
                   className="nav-link" 
                   activeClassName="active-link"
+                  onClick={()=>setShow(false)}
                >
                   about
                </Link>
@@ -50,6 +54,7 @@ const NavBar = () => {
                   <Link 
                      to="/contact" 
                      className="btn"
+                     onClick={()=>setShow(false)}
                   >
                      contact
                   </Link>
